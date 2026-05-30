@@ -1,0 +1,14 @@
+<package format="3">
+  <name>mujoco_ros2_bridge</name>
+  <version>0.1.0</version>
+  <description>MuJoCo simulation bridge for ROS2 via Rust</description>
+  <maintainer email="shswds@gmail.com">hs</maintainer>
+  <license>MIT</license>
+
+  <depend>rclrs</depend>
+  <depend>std_msgs</depend>
+
+  <export>
+    <build_type>ament_cargo</build_type>
+  </export>
+</package>
