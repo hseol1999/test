@@ -1,0 +1,12 @@
+[package]
+name = "mujoco_ros2_bridge"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mujoco_bridge"
+path = "src/main.rs"
+
+[dependencies]
+rclrs = "*"
+std_msgs = "*"
